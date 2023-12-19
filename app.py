@@ -9,6 +9,7 @@ from datetime import datetime
 import pytz
 import cv2
 import threading  # Import the threading module
+from werkzeug.urls import quote as url_quote
 
 app = Flask(__name__)
 def get_os_info():
